@@ -17,9 +17,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{CEBF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messages", "Messages", "{CE0F4B23-6464-471C-9357-BC1917338B4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Service\Library\Library.csproj", "{74DAEB5C-9022-43FE-AE13-76AC925FC88B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "Service\Launcher\Launcher.csproj", "{B92BC9EA-221B-4404-BD16-63C3651CA5D4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74DAEB5C-9022-43FE-AE13-76AC925FC88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DAEB5C-9022-43FE-AE13-76AC925FC88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DAEB5C-9022-43FE-AE13-76AC925FC88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DAEB5C-9022-43FE-AE13-76AC925FC88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92BC9EA-221B-4404-BD16-63C3651CA5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92BC9EA-221B-4404-BD16-63C3651CA5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92BC9EA-221B-4404-BD16-63C3651CA5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92BC9EA-221B-4404-BD16-63C3651CA5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74DAEB5C-9022-43FE-AE13-76AC925FC88B} = {CEBFB912-445A-4C5D-9877-7207698CD737}
+		{B92BC9EA-221B-4404-BD16-63C3651CA5D4} = {CEBFB912-445A-4C5D-9877-7207698CD737}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE8AD92F-12AD-4AAE-B140-7C484178B639}
