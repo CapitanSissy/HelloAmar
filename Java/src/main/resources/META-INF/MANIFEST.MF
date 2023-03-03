@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Reza Ahmadi
+Implementation-Title: Standalone Mock API
+Implementation-Version: 1.0.0.1
+Specification-Vendor: Taryana LLC
+Created-By: Developers of Web department
+Main-Class: ir.zencore.api.Launcher

@@ -1,3 +1,6 @@
 C#/.vs/
 C#/Service/Launcher/obj/
 C#/Service/Library/obj/
+Certificate/LetsEncrypt/zencore.ir.keystore
+Certificate/LetsEncrypt/zencore.ir.p12
+Java/target/
