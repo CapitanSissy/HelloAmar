@@ -7,7 +7,7 @@ import java.io.Serializable;
 public class Defaults implements Serializable {
 
   public static final String INTERNAL_SECURITY_KEY = "036^VX@RC";
-  public static final String TARGET_NAME_SPACE = "https://api.zencore.ir/amar";
+  public static final String TARGET_NAME_SPACE = "https://api.zencore.ir";
 
 
   public static class URL {

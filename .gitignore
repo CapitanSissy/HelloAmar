@@ -4,3 +4,6 @@ C#/Service/Library/obj/
 Certificate/LetsEncrypt/zencore.ir.keystore
 Certificate/LetsEncrypt/zencore.ir.p12
 Java/target/
+C#/Service/Launcher/bin/
+C#/Service/Library/bin/
+Java/obfuscated/
